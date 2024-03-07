@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Stellar',
+  title: 'Turgon - Build with AI',
   description: 'Page description',
 }
 
