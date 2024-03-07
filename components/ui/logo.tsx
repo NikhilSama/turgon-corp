@@ -6,7 +6,7 @@ import LogoImg from '@/public/images/turgonlogo-transparent.png'
 export default function Logo() {
   return (
     <Link className="inline-flex" href="/" aria-label="Cruip">
-      <Image className="max-w-none" src={LogoImg} width={250} height={100} priority alt="Stellar" />
+      <Image className="max-w-none" src={LogoImg} width={110} height={100} priority alt="Stellar" />
     </Link>
   )
 }
