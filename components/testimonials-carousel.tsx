@@ -56,7 +56,7 @@ export default function TestimonialsCarousel() {
             <div>
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The AI BPO platform</div>
             </div>
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Delivery Operations at Scale</h2>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Deliver Operations at Scale</h2>
             <p className="text-lg text-slate-400">From Customer Service, to Sales and Software, Turgon's AI platform delivers results securely, scalably, and cost efficiently with high quality.</p>
           </div>
 
