@@ -29,7 +29,7 @@ export default function Testimonials02() {
       name: 'Nikhil Sama',
       role: 'Founder  CTO',
       twitter: '#0',
-      quote: "Nikhil Sama is a visionary technologist with extensive experience in AI technology. Nikhil was the Founder and CEO of InstaPaisa, India's first online lending platform, which was acquired by Incred Finance. He served as the General Manager for Ocrolus Inc, NY, where he played a pivotal role in setting up Indian technology and operations. Prior to that, he was a consultant with Bain & Company, serving technology clients in the US. Nikhil brings over a decade of Silicon Valley software development experience with companies like Cisco Systems, Juniper Networks, and Ciena.",
+      quote: "Nikhil Sama is a visionary technologist with extensive experience in Gen AI & Software. Nikhil was the Founder and CEO of InstaPaisa, India's first online lending platform, which was acquired by Incred Finance. He served as the General Manager for Ocrolus Inc, NY, where he played a pivotal role in setting up Indian technology and operations. Prior to that, he was a consultant with Bain & Company, serving technology clients in the US. Nikhil brings over a decade of Silicon Valley software development experience with companies like Cisco Systems, Juniper Networks, and Ciena.",
       edu:"Nikhil holds an MBA from Chicago Booth, an MS in Computer Science from the USC and a BTech from Delhi College of Engineering."
     },
     {
