@@ -76,8 +76,8 @@ export default function Testimonials02() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-sm text-slate-400">“{item.quote}”</p><br></br>
-                <p className="text-sm text-slate-400">“{item.edu}”</p>
+                <p className="text-sm text-slate-400">{item.quote}</p><br></br>
+                <p className="text-sm text-slate-400">{item.edu}</p>
               </div>
             ))}
           </div>
