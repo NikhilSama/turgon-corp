@@ -18,9 +18,13 @@ export default function Header() {
 
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              {<li>
-                <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/about">About</Link>
+              {<>
+                <li>
+                <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/playground">Playground</Link>
               </li>
+              <li>
+              <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/about">About</Link>
+            </li></>
               /*<li>
                 <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/integrations">Integrations</Link>
               </li>
