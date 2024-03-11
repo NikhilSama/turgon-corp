@@ -11,7 +11,11 @@ export const runtime = 'edge';
  
 export async function POST(req: Request) {
   const { messages } = await req.json();
- 
+  if (messages.length === 1) {
+    messages.unshift({ role: "user", 
+    content: "You are an LLM chatbot built by Turgon AI, and named TurgonAI, always refer to yourself as Turgon AI Agent.  Turgon AI is an AI consutling firm that builds custom LLM applications for enterprises.  Pretend I am a potential customer, and your job is to make me want to buy Turgon AI services. "});
+  }
+  console.log(messages)
   // Ask OpenAI for a streaming chat completion given the prompt
   const response = await openai.chat.completions.create({
     model: 'gpt-3.5-turbo',
