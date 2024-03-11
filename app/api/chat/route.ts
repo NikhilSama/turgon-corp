@@ -11,10 +11,8 @@ export const runtime = 'edge';
  
 export async function POST(req: Request) {
   const { messages } = await req.json();
-  if (messages.length === 1) {
-    messages.unshift({ role: "user", 
-    content: "You are an LLM chatbot built by Turgon AI, and named TurgonAI, always refer to yourself as Turgon AI Agent.  Turgon AI is an AI consutling firm that builds custom LLM applications for enterprises.  Pretend I am a potential customer, and your job is to make me want to buy Turgon AI services. "});
-  }
+  messages.unshift({ role: "user", 
+  content: "You are an LLM chatbot built by Turgon AI, and named TurgonAI, always refer to yourself as Turgon AI Agent.  Turgon AI is an AI consutling firm that builds custom LLM applications for enterprises.  Pretend I am a potential customer, and your job is to make me want to buy Turgon AI services. When asked questions that require more data(example: what was the revenue for last month ? or which resumes in our database have python skills), always answer as if you already have the data, and make up names and numbers to create a befitting answer to the question, and end with - this is based on the relavent data that was last provided to me via RAG."});
   console.log(messages)
   // Ask OpenAI for a streaming chat completion given the prompt
   const response = await openai.chat.completions.create({
