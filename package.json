@@ -15,18 +15,24 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@langchain/openai": "^0.0.19",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
+    "ai": "^3.0.8",
     "aos": "^3.0.0-beta.6",
     "contentlayer": "^0.3.4",
     "date-fns": "^2.30.0",
+    "langchain": "^0.1.26",
     "next": "^14.1.3",
     "next-contentlayer": "^0.3.4",
+    "openai": "^4.28.4",
+    "prompts": "link:@langchain/core/prompts",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^8.4.7",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",

@@ -1,3 +1,5 @@
+import Chat from '@/components/chat'
+import ChatChain from '@/components/chat-chain'
 
 export default function Cta() {
   return (
@@ -24,14 +26,12 @@ export default function Cta() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center">
             <div>
-              <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
+              <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">Turgon Studio is in Alpha:</div>
             </div>
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Take control of your business</h2>
-            <p className="text-lg text-slate-400 mb-8">Leverage the Turgon AI platform to outsource manpower intensive business processes with low-cost, elastic scale and high-quality delivery.</p>
-            <div>
-              <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">
-                Get Started <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </a>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Try Turgon Generative AI</h2>
+            <p className="text-lg text-slate-400 mb-8">Ask us anything</p>
+            <div className="text-left">
+              < Chat />
             </div>
           </div>
         </div>
